@@ -1,0 +1,141 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+/* Header/Navigation Section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  position: relative;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+span {
+  padding: 15px;
+}
+
+a {
+  color: seashell;
+}
+
+/* Welcome Section */
+
+.welcome img {
+  z-index: 1;
+  height: 700px;
+  width: 1200px;
+}
+
+.welcome {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.mission {
+  display: block;
+  position: relative;
+  width: 100%;
+  bottom: 400px;
+  z-index: 1;
+  background-color: black;
+}
+
+/* Tea Section */
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content img {
+  padding: 10px 20px;
+  width: 300px;
+}
+
+
+.teas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Location Section */
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1100px;
+}
+
+#locations .places {
+margin: auto;
+width: 1100px;
+}
+
+#locations h2 {
+  position: relative;
+  top: 80px;
+}
+
+.places {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 65px;
+  }
+
+.downtown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin: 5px 20px;
+}
+
+.east {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin: 5px 20px;
+}
+
+.oakdale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin: 5px 20px;
+}
+
+.copyright {
+  padding-left: 20px;
+  text-align: left;
+}
